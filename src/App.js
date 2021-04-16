@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <p>{process.env.REACT_APP_BASE_URL}</p>
+          <p>{process.env.REACT_APP_ENV}</p>
         </p>
         <a
           className="App-link"
