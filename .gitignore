@@ -2,4 +2,4 @@
 /.env.dev
 /.env.qa
 /.env.prod
-
+/build
