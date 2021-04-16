@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          <p>ENV File Study</p>
           <p>{process.env.REACT_APP_BASE_URL}</p>
           <p>{process.env.REACT_APP_ENV}</p>
         </p>
